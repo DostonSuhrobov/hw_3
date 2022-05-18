@@ -1,17 +1,102 @@
-:root {
-    --bckg-color: #f2f2f2;
-}
-
 .container {
     position: relative;
-    width: 100%;
-    background-color: var(--bckg-color);
+    background-color: #f2f2f2;
     padding: 3rem;
-}
-
-
-.date_container {
+  }
+  
+  .date_container {
     position: absolute;
     right: 3rem;
-    top:1rem;
-}
+    top: 1rem;
+  }
+  
+  .form_container,
+  .container_2,
+  .container_3 {
+    background-color: white;
+    padding: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .form_container .form_container_row {
+    margin-top: 1rem;
+  }
+  .form_container .form_container_row:nth-child(1),
+  .form_container .form_container_row:nth-child(2) {
+    text-align: center;
+  }
+  .form_container form {
+    width: 40vw;
+    border: 0.1rem solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .form_container form .form_row {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .form_container form .form_row input {
+    width: 100%;
+  }
+  .form_container form .row {
+    width: 100%;
+  }
+  .form_container .form_container_row .form_row:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .form_container .form_container_row .form_row:nth-child(2) input {
+    width: 48%;
+  }
+  
+  .container_2,
+  .container_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container_2 p,
+  .container_3 p {
+    width: 60%;
+  }
+  
+  .btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+  }
+  
+  button {
+    height: 2rem;
+    width: 5rem;
+  }
+  .btn_blue,
+  .btn_white {
+    background-color: #18a0fb;
+    color: white;
+    border-radius: 0.2rem;
+    border: 0;
+  }
+  .btn_white {
+    background-color: white;
+    color: #18a0fb;
+    border: 0.1rem solid #18a0fb;
+  }
+  input {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  
