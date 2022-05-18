@@ -1,0 +1,17 @@
+:root {
+    --bckg-color: #f2f2f2;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    background-color: var(--bckg-color);
+    padding: 3rem;
+}
+
+
+.date_container {
+    position: absolute;
+    right: 3rem;
+    top:1rem;
+}

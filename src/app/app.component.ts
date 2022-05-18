@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hw_3';
+  date_formated = new Date().toDateString().split(' ').splice(1).join(' ');
+  
 }
